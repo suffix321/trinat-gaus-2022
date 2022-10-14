@@ -72,7 +72,7 @@ public class Person {
         SimpleDateFormat df = new SimpleDateFormat("dd. MMMMMM yyyy");
         String gebDat = df.format(geburtsdatum.getTime());
         System.out.println(gebDat);
-        System.out.println(this.vorname +" "+ this.name +" "+ this.alter() +" "+ this.strasse +" "+ this.hausnummer +" "+ this.postleitzahl +" "+ this.wohnort);
+        System.out.println(this.vorname +" "+ this.name +" "+ this.alter() +" "+ this.strasse +", "+ this.hausnummer +" "+ this.postleitzahl +" "+ this.wohnort);
     }
     public int alter() {
         GregorianCalendar heute = new GregorianCalendar();
